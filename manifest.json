@@ -1,0 +1,14 @@
+{
+    "name" : "GreenTapeExtension",
+    "version" : "0.1.1",
+    "manifest_version" : 3,
+    "description" : "chrome extension green tape second",
+    "content_scripts" : [{
+        "matches" : ["<all_urls>"],
+        "js" : [
+            "js/jquery.js",
+            "js/p5.min.js",
+            "js/script.js"
+        ]
+    }]
+}
